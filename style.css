@@ -95,6 +95,18 @@ margin-left: 25px;
 }
 
 .button{
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 22px;
+}
+
+
+.error {
+  color: red;
+  font-size: 12px;
+  display: none; 
+}
+
+.input-error {
+  border: 1px solid red;
+  background-color: rgba(255, 0, 0, 0.07);
 }

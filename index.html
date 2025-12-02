@@ -31,15 +31,22 @@
 
 
     <div class="field">
-            <form class="email">
-                <label for="email">Email Address*</label><br>
-                <input type="text" id="email" name="email"  placeholder="email@company.com"><br>
-                
-            </form>
-        </div>
+    <form class="email" id="emailForm">
+        <label for="email">Email Address*</label><br>
+
+        <input type="text" id="email" name="email" placeholder="email@company.com"><br>
+
+        <small id="errorMsg" class="error">Valid email required</small>
 
         <div class="button">
-            <button class="submit-btn">Subscribe to monthly newsletter</button>
+            <button type="submit"  class="submit-btn">Subscribe to monthly newsletter</button>
         </div>
+    </form>
+</div>
+
+        
+
+
+        <script src="main.js"></script>
 </body>
 </html>
