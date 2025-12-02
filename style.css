@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(39, 39, 59);
+}
+
+
+.typeshi{
+    background-color: white;
+    height: 700px;
+    width: 1000px;
+    margin: 50px auto;
+    margin-top: 100px;
+    border-radius: 40px;
+}
+
+.fr{
+    color: rgb(9, 9, 77);
+    font-size: 50px;
+    margin-left: 40px;
+    padding-top: 110px;
+    float: left;
+}
+
+.imgs{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+.frs{
+    margin-left: 40px;
+    padding-top: 240px;
+    font-size: 18.5px;
+}
+
+
+.imgs2{
+    position: absolute;
+    margin-left: 38px;
+}
+
+.list{
+    margin-left: 70px;
+}
+
+
+
+
+.field {
+  display: flex;
+  flex-direction: column; 
+  text-align: left;
+  color: rgb(9, 9, 77);
+}
+
+.field input {
+  width: 350px;
+  height: 30px; 
+  padding: 8px;
+  font-size: 16px; 
+  border-radius: 6px;  
+  color: rgb(9, 9, 77);
+
+}
+
+.email{
+margin-top: 30px;
+margin-left: 25px;
+}
+
+.email input{
+  width: 365px;
+  height: 30px; 
+  padding: 8px;
+  font-size: 16px; 
+  border-radius: 6px;  
+  color: rgb(9, 9, 77);
+}
+
+.submit-btn {
+    width: 350px;
+    max-width: 500px;
+    background-color: #0c084e; 
+    color: white;
+    padding: 14px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+ 
+}
+
+.submit-btn:hover {
+    opacity: 0.95;
+}
+
+.button{
+    margin-left: 40px;
+    margin-top: 22px;
+}
